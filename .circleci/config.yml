@@ -108,7 +108,6 @@ jobs:
   section_10_deploy_to_heroku:
     <<: *defaults
     steps:
-    steps:
       - checkout
       - run:
           name: Deploy to Heroku
